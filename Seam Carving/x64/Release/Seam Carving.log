@@ -1,0 +1,11 @@
+﻿  Seam Carving.cpp
+  sc.cpp
+sc.obj : error LNK2001: unresolved external symbol "public: void __cdecl cv::Mat::copyTo(class cv::_OutputArray const &)const " (?copyTo@Mat@cv@@QEBAXAEBV_OutputArray@2@@Z)
+sc.obj : error LNK2001: unresolved external symbol "public: void __cdecl cv::Mat::convertTo(class cv::_OutputArray const &,int,double,double)const " (?convertTo@Mat@cv@@QEBAXAEBV_OutputArray@2@HNN@Z)
+sc.obj : error LNK2001: unresolved external symbol "class cv::_InputOutputArray const & __cdecl cv::noArray(void)" (?noArray@cv@@YAAEBV_InputOutputArray@1@XZ)
+sc.obj : error LNK2001: unresolved external symbol "bool __cdecl cv::imwrite(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::_InputArray const &,class std::vector<int,class std::allocator<int> > const &)" (?imwrite@cv@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV_InputArray@1@AEBV?$vector@HV?$allocator@H@std@@@3@@Z)
+sc.obj : error LNK2001: unresolved external symbol "void __cdecl cv::minMaxLoc(class cv::_InputArray const &,double *,double *,class cv::Point_<int> *,class cv::Point_<int> *,class cv::_InputArray const &)" (?minMaxLoc@cv@@YAXAEBV_InputArray@1@PEAN1PEAV?$Point_@H@1@20@Z)
+sc.obj : error LNK2001: unresolved external symbol "void __cdecl cv::cvtColor(class cv::_InputArray const &,class cv::_OutputArray const &,int,int)" (?cvtColor@cv@@YAXAEBV_InputArray@1@AEBV_OutputArray@1@HH@Z)
+sc.obj : error LNK2001: unresolved external symbol "void __cdecl cv::Sobel(class cv::_InputArray const &,class cv::_OutputArray const &,int,int,int,int,double,double,int)" (?Sobel@cv@@YAXAEBV_InputArray@1@AEBV_OutputArray@1@HHHHNNH@Z)
+sc.obj : error LNK2001: unresolved external symbol "void __cdecl cv::magnitude(class cv::_InputArray const &,class cv::_InputArray const &,class cv::_OutputArray const &)" (?magnitude@cv@@YAXAEBV_InputArray@1@0AEBV_OutputArray@1@@Z)
+C:\Users\Himen\source\repos\Seam Carving\x64\Release\Seam Carving.exe : fatal error LNK1120: 8 unresolved externals
