@@ -35,7 +35,7 @@ int main(int argc, char** argv)
 
 	// get the new dimensions from the argument list
 	int new_width = 1000;//atoi(argv[2]);
-	int new_height = 800;//atoi(argv[3]);
+	int new_height = 700;//atoi(argv[3]);
 
 	// the output image
 	Mat out_image;
