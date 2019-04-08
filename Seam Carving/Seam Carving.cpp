@@ -22,7 +22,7 @@ int main(int argc, char** argv)
 	Mat in_image;
 	in_image = imread("castle.jpg"/*argv[1]*/);
 
-	/*if (!in_image.data)
+	if (!in_image.data)
 	{
 		cout << "Could not load input image!!!" << endl;
 		return -1;
@@ -31,11 +31,11 @@ int main(int argc, char** argv)
 	if (in_image.channels() != 3) {
 		cout << "Image does not have 3 channels!!! " << in_image.depth() << endl;
 		return -1;
-	}*/
+	}
 
 	// get the new dimensions from the argument list
-	int new_width = 1000;//atoi(argv[2]);
-	int new_height = 700;//atoi(argv[3]);
+	int new_width = 700;//atoi(argv[2]);
+	int new_height = 500;//atoi(argv[3]);
 
 	// the output image
 	Mat out_image;
@@ -49,10 +49,10 @@ int main(int argc, char** argv)
 
 	// also display them both
 
-	/*namedWindow("Original image", WINDOW_AUTOSIZE);
+	namedWindow("Original image", WINDOW_AUTOSIZE);
 	namedWindow("Seam Carved Image", WINDOW_AUTOSIZE);
 	imshow("Original image", in_image);
-	imshow("Seam Carved Image", out_image);*/
+	imshow("Seam Carved Image", out_image);
 	waitKey(0);
 	return 0;
 }

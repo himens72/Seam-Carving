@@ -9,7 +9,7 @@ bool seam_carving(cv::Mat& in_image, int new_width, int new_height, cv::Mat& out
 
 bool seam_carving_trivial(cv::Mat& in_image, int new_width, int new_height, cv::Mat& out_image);
 
-void reduce_horizontal_seam_trivial(cv::Mat& in_image, cv::Mat& out_image);
+bool reduce_horizontal_seam_trivial(cv::Mat& in_image, cv::Mat& out_image);
 
 
 void reduce_vertical_seam_trivial(cv::Mat& in_image, cv::Mat& out_image);
@@ -17,3 +17,4 @@ void reduce_vertical_seam_trivial(cv::Mat& in_image, cv::Mat& out_image);
 
 
 #endif
+
